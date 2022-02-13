@@ -14,24 +14,24 @@
 ```
 .
 ├── data
-│   └── raw
+│   ├── raw
 │   ├── intermediate
 │   ├── processed
-│   ├── temp
+│   └──  temp
 ├── results
 │   ├── outputs
 │   ├── models
-│   ├── weights
+│   └──  weights
 ├── documents
 │   ├── docs
 │   ├── images
 │   └── references
 ├── notebooks               <- notebooks for explorations / prototyping
 │   ├── news
-│   ├── signal
-└── src                     <- all source code, internal org as needed
+│   └──  signal
+├── src                     <- all source code, internal org as needed
 │   ├── train_lstm
-│   ├── train_bert
+│   └──  train_bert
 ```
 
 ## Notes
