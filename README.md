@@ -19,7 +19,7 @@
 ├── results
 │   ├── outputs
 │   ├── models
-│   ├── weight
+│   ├── weights
 ├── documents
 │   ├── docs
 │   ├── images
