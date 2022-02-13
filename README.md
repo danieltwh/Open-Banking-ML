@@ -10,6 +10,8 @@
   - [Usage](#usage)
 
 ## Project Structure
+
+```
 .
 ├── data
 │   └── raw
@@ -30,6 +32,7 @@
 └── src                     <- all source code, internal org as needed
 │   ├── train_lstm
 │   ├── train_bert
+```
 
 ## Notes
 
