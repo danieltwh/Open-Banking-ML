@@ -2,17 +2,12 @@
 
 ## Table of Contents
 
-- [Fintech Society ML - Insurtech Computer Vision](#fintech-society-ml---open-banking)
+- [Fintech Society ML - Open Banking](#fintech-society-ml---open-banking)
   - [Table of Contents](#table-of-contents)
   - [Notes](#notes)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Training and Testing](#training-and-testing)
-    - [Deployment](#deployment)
-  - [Annotation](#annotation)
-  - [Label guide](#label-guide)
-  - [Miscellaneous](#miscellaneous)
-    - [Yolov5 Training / Inference](#yolov5-training--inference)
+
 
 ## Notes
 
