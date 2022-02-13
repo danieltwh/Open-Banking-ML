@@ -4,16 +4,39 @@
 
 - [Fintech Society ML - Open Banking](#fintech-society-ml---open-banking)
   - [Table of Contents](#table-of-contents)
+  - [Project Structure](#project-structure)
   - [Notes](#notes)
   - [Installation](#installation)
   - [Usage](#usage)
 
+## Project Structure
+.
+├── data
+│   └── raw
+│   ├── intermediate
+│   ├── processed
+│   ├── temp
+├── results
+│   ├── outputs
+│   ├── models
+│   ├── weight
+├── documents
+│   ├── docs
+│   ├── images
+│   └── references
+├── notebooks               <- notebooks for explorations / prototyping
+│   ├── news
+│   ├── signal
+└── src                     <- all source code, internal org as needed
+│   ├── train_lstm
+│   ├── train_bert
 
 ## Notes
 
 1. Model weights:
    Please download the following model weights and place them in the `weights` folder
    1. Link
+
 
 ## Installation
 
