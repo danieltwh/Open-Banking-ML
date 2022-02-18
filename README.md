@@ -52,7 +52,7 @@
 2. Create the virutal environment
     
     ```bash
-    conda create -n openbank python=3.7.12
+    conda create -n openbank python=3.7.11
     ```
     
 3. Activate the virutal environment 
