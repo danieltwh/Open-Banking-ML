@@ -1,6 +1,11 @@
+Flask
+ipykernel
 numpy
 pandas
+pytorch
 matplotlib
 seaborn
 tensorflow
-pytorch
+requests
+regex
+
