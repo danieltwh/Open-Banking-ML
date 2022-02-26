@@ -5,6 +5,7 @@ pandas
 pytorch
 matplotlib
 seaborn
+scikit-learn == 1.0.2
 tensorflow
 requests
 regex
