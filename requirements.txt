@@ -1,5 +1,6 @@
 Flask
 ipykernel
+nltk
 numpy
 pandas
 pytorch
@@ -9,4 +10,5 @@ scikit-learn == 1.0.2
 tensorflow
 requests
 regex
+vaderSentiment
 
