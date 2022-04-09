@@ -75,6 +75,20 @@ def cci(df, n=20):
     df["cci"] = (typical_price - typical_price.rolling(n).mean()) / (0.015 * typical_price.rolling(n).std())
     return df
 
+def momentum(df, n=4):
+    df["Momentum"] = np.nan
+
+    for idx, row in df.iterrows():
+        prev_idx = idx - n
+        if prev_idx >= 0:
+            curr_price = df.loc[idx, "Price"]
+            prev_price = df.loc[prev_idx, "Price"]
+            momentum = curr_price / prev_price * 100
+
+            # Add the momentum
+            df.loc[idx, "Momentum"] = momentum
+    return df
+
 
 def process(df):
     df = sma(df)
