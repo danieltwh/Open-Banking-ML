@@ -99,4 +99,5 @@ def process(df):
     df = rsi(df)
     df = bb(df)
     df = cci(df)
+    df = momentum(df)
     return df
