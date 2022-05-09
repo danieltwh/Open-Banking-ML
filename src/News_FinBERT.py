@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from datasets import Dataset
 
 tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
-MODEL_PATH = (r"C:\Users\wangt\Open-Banking-ML\results\models\FinBERT_v1.0")
+MODEL_PATH = ("results/models/FinBERT_v1.0")
 trained_bert = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
 
 def evaluation(eval_preds):
@@ -33,7 +33,7 @@ def predict(df):
 
 if __name__ == "__main__":
     #testing the accuracy, should print 0.929
-    df = pd.read_csv(r"C:\Users\wangt\Open-Banking-ML\data\raw\news\newsapiorg_labelled.csv", index_col=0)
+    df = pd.read_csv("data/raw/news/newsapiorg_labelled.csv", index_col=0)
     # 0 = postive, 1 = negative, 2 = neutral
     df.loc[df["label"] == 0, 'label'] = 2
     df.loc[df['label'] == 1, 'label'] = 0
