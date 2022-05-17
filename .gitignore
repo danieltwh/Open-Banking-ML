@@ -1,5 +1,7 @@
 **/.DS_Store
 
+**/oanda.cfg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
