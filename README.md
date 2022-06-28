@@ -17,28 +17,23 @@
 │   ├── raw
 │   ├── intermediate
 │   ├── processed
-│   └──  temp
+│   └── temp
 ├── results
 │   ├── outputs
 │   ├── models
-│   └──  weights
+│   └── weights
 ├── documents
-│   ├── docs
-│   ├── images
-│   └── references
+│   └── images
 ├── notebooks               <- notebooks for explorations / prototyping
 │   ├── news
-│   └──  signal
-├── src                     <- all source code, internal org as needed
-│   ├── train_lstm
-│   └──  train_bert
+│   └── signal
+└── src                     <- all source code, internal org as needed
 ```
 
 ## Notes
 
 1. Model weights:
-   Please download the following model weights and place them in the `weights` folder
-   1. Link
+   Model weights are placed in the `weights` folder
 
 
 ## Installation
@@ -69,6 +64,9 @@
 
 ## Usage
 
-### Demo
+### Website
+This project was deployed on a website to show the Bidirectional Forex Signals from the LSTM model and the News Sentiment of Financial News Headlines with FinBERT. Please access the website [here](https://nus-fintech-open-banking.netlify.app/)
 
-Video Demo of Application
+
+
+
