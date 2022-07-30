@@ -1,5 +1,9 @@
 # Fintech Society ML - Open Banking
 
+## Open Banking Project
+In this project, we sought to develop Machine Learning (ML) models that predict future forex (FX) movements and sentiment of news headlines. The aim of the project was to create a one-stop-shop FX platform for investors and businesses to get the latest FX rates and news, as well as bidirectional price signals and news sentiment from our ML models to make better decisions on when to make Forex transactions.
+
+
 ## Table of Contents
 
 - [Fintech Society ML - Open Banking](#fintech-society-ml---open-banking)
